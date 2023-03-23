@@ -1,9 +1,11 @@
 import React from 'react'
-import classNames from './HomePage.module.scss'
+import classes from './HomePage.module.scss'
 
 const HomePage = () =>{
 return(
-    <div className={classNames.container}></div>
+    <div className={classes.container}>
+        
+    </div>
 )
 }
 export default HomePage
