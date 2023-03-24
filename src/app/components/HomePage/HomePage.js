@@ -10,6 +10,7 @@ import AboutUs from './components/ AboutUs'
 import VisionMission from './components/VisionMission'
 import BlueStarTeam from './components/ BlueStarTeam'
 import ProductPackages from './components/ProductPackages'
+import Footer from './components/Footer'
 
 const HomePage = () =>{
 return(
@@ -37,6 +38,9 @@ return(
         </div>
         <div className={classes.padding}>
             <ProductPackages/>
+        </div>
+        <div>
+            <Footer />
         </div>
     </div>
 )
