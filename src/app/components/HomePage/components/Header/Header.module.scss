@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .img{
+        width: 240px;
+        height: 65px;
+        object-fit: contain;
+    }
+    .rowBetween{
+        display: flex;
+        align-items: center;
+        .mrBtn{
+            margin: 0 40px,
+        }
+    }
+    
+}

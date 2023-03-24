@@ -1,12 +1,12 @@
 import React from 'react'
+import classes from './page.module.css'
 import HomePage from './components/HomePage'
-import { BrowserRouter } from 'react-router-dom'
-
 export default function Home() {
   return (
-    <div>
-        <HomePage />
-      
+    <div >
+      <main className={classes.container}>
+      <HomePage />
+      </main>
     </div>
   )
 }
