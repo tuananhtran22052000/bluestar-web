@@ -7,6 +7,9 @@ import Banner from './components/Banner'
 import SalientFeatures from './components/SalientFeatures'
 import Evaluate from './components/ Evaluate'
 import AboutUs from './components/ AboutUs'
+import VisionMission from './components/VisionMission'
+import BlueStarTeam from './components/ BlueStarTeam'
+import ProductPackages from './components/ProductPackages'
 
 const HomePage = () =>{
 return(
@@ -25,6 +28,15 @@ return(
         </div>
         <div>
             <AboutUs />
+        </div>
+        <div className={classes.mrVision}>
+            <VisionMission />
+        </div>
+        <div className={classes.padding}>
+            <BlueStarTeam />
+        </div>
+        <div className={classes.padding}>
+            <ProductPackages/>
         </div>
     </div>
 )
